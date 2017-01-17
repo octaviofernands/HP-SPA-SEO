@@ -1,0 +1,24 @@
+{
+  "name": "hp-spa-seo",
+  "version": "0.0.1",
+  "description": "High performance Single Page Applications, SEO friendly and Redis caching",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octaviofernands/hp-spa-seo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Octavio Fernandes",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "express-vue": "^3.4.2",
+    "morgan": "^1.7.0",
+    "redis": "^2.6.5",
+    "request": "^2.79.0"
+  }
+}
